@@ -4,18 +4,46 @@ body{
     margin: 0%;
 }
 #icon{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     position: fixed;    
 }
 #circle{
     background-color: white;
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#containerSelect{
+    background-color: #11171f;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    left: 20%;
+    margin-top: 10px;
+    display: grid; /* tente grid*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+.lingIcon{
+    height: 100%;
+    width: 100%;
+    opacity : 0.5;
+}
+.lingIcon:hover{
+    opacity : 1;
+}
+.selectLing{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: #222f45;
+    margin-top: 40px;
 }
 header{
     background-color: #11171f;
@@ -25,8 +53,7 @@ header{
 h1{
     display: inline;
     position: absolute;
-    /* right: 90%; */
-    left: 90px;
-    top: 25px;
+    left: 68px;
+    top: -7px;
     
 }
